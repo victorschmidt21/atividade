@@ -172,6 +172,111 @@ html{
 }
 /* FIM PROJECTS */
 
+.form {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  display: block;
+  padding: 3rem;
+}
+
+.form-header {
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.input-group {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.title {
+  margin-left: 15px;
+}
+
+.input-box {
+  margin-bottom: 1.1rem;
+  font-size: 50px;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #000000;
+}
+
+.input-box label,
+.gender-title h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000c0;
+  margin-left: 50px;
+}
+
+.input-box input::placeholder {
+  color: #000000be;
+}
+
+.gender-group {
+  display: block;
+  justify-content: space-between;
+  margin-top: 0.62rem;
+  padding: 0 .5rem;
+}
+
+.gender-input {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.gender-input input {
+  margin-right: 0.35rem;
+}
+
+.gender-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.continue-button button {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #000000;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-button button:hover {
+  background-color: #000000f1;
+}
+
+.continue-button button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
+
 /* INICIO RODAPE */
 footer{
   width: 100%;
